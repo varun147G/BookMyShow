@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(51, 53, 70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+.logo_division{
+    display: flex;
+    align-items: center;
+}
+.logo_division input{
+    height: 20px;
+    width: 450px;
+    border: none;
+    border-radius: 5px;
+}
+.links a{
+    color: rgb(253, 252, 252);
+    text-decoration: none;
+    margin-right: 20px;
+}
+.links a:hover{
+    color: white;
+}
+.links button{
+    background-color: rgb(241, 29, 29);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 15px;
+}
+.banner{
+    text-align: center;
+    padding: 15px 0px;
+}
+.banner img{
+    border-radius: 8px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.info h1{
+    font-size: 25px;
+}
+.info a{
+    text-decoration: none;
+    color: red;
+}
+.movie_list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.movie_list img{
+    border-radius: 10px;
+    transition: 1s;
+}
+.movie_list img{
+    border-radius: 10px;
+}
+.movie_list img:hover{
+    transform: translateY(-15px);
+}
+.movie_title{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+.genre{
+    color: grey;
+}
+.streaming{
+    margin: 30px 50px;
+}
+.entertainment{
+    text-align: center;
+    margin: 50px 0px;
+}
+.entertainment h1{
+font-size: 25px;
+text-align: left;
+margin: 30px;
+}
+.entertainment img{
+    margin: 0px 15px;
+    border-radius: 10px;
+}
